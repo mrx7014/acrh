@@ -11,7 +11,7 @@ Installation
 ```sh
 git clone https://github.com/mrx7014/acrh.git
 mv acrh junest
-cp junest ~/.local/share
+cp -r junest ~/.local/share
 export PATH=~/.local/share/junest/bin:$PATH
 ```
 
